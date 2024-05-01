@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convidados</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p class="emoji">📱</p>
+            <h1>Adicione os numeros dos convidados</h1>
+        </header>
+        <form id="cadastro">
+            <input type="text" id="nome" required placeholder="Nome Completo">
+            <input type="text" id="numero"required placeholder="Numero de telefone" min="0" max="15">
+            <button type="submit">Adicionar numero</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nomes Cadastrados</th>
+                    <th>Numeros Cadastrados</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
